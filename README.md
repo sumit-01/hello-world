@@ -8,4 +8,4 @@ def index():
     return 'Hello, World!!'
     
 if name=='__main__':
-    app.run()
+    app.run(debug=True)
